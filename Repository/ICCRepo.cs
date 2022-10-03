@@ -1,4 +1,5 @@
 ﻿using Entity;
+using ModelCryptoCurrency;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +10,8 @@ namespace Repository
 {
     public interface ICCRepo
     {
-        Task<CryptoCurrency> GetByCode(string name);
+        Task<ModelCrypto> GetByCode(string name);
         DataList GetData();
-        Task<(double, CryptoCurrency)> ConvertCurrency(string from, string to);  
+        Task<(double, ModelCrypto, ModelCrypto)> ConvertCurrency(string from, string to);  
     }
 }

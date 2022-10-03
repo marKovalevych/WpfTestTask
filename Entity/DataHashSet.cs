@@ -10,6 +10,11 @@ namespace Entity
     public class DataHashSet
     {
         [JsonPropertyName("data")]
-        public HashSet<CryptoCurrency> DataSet { get; set; }
+        public List<CryptoCurrency> DataSet { get; set; }
+
+        public DataHashSet()
+        {
+            DataSet = new List<CryptoCurrency>();
+        }
     }
 }

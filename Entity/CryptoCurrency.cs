@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Text.Json.Serialization;
 
 namespace Entity
@@ -9,18 +10,18 @@ namespace Entity
         public string Name { get; set; }
 
         [JsonPropertyName("symbol")]
-        public string CurrencyId { get; set; }
+        public string Code { get; set; }
 
         [JsonPropertyName("priceUsd")]
-        [JsonNumberHandling(JsonNumberHandling.AllowReadingFromString)]
-        public double Price { get; set; }
+        public string Price { get; set; }
 
         [JsonPropertyName("supply")]
-        [JsonNumberHandling(JsonNumberHandling.AllowReadingFromString)]
-        public double Volume { get; set; }
+        public string Volume { get; set; }
 
         [JsonPropertyName("changePercent24Hr")]
-        [JsonNumberHandling(JsonNumberHandling.AllowReadingFromString)]
-        public double PriceChange { get; set; }
+        public string PriceChange { get; set; }
+
+        [JsonPropertyName("explorer")]
+        public string Market { get; set; }
     }
 }

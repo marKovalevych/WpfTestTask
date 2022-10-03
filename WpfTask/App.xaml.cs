@@ -13,5 +13,15 @@ namespace WpfTask
     /// </summary>
     public partial class App : Application
     {
+        public async void Application_Startup(object sender, StartupEventArgs e)
+        {
+            var mainWindow = await MainWindowView.SetWindow();
+            mainWindow.Show();
+        }
+
+        private void Application_Startup_1(object sender, StartupEventArgs e)
+        {
+
+        }
     }
 }
