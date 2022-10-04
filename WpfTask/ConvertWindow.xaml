@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfTask.ConvertWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTask"
+        mc:Ignorable="d"
+        Title="ConvertWindow" Height="450" Width="800">
+    <Grid Background="#FFF3C7C7">
+        <TextBox x:Name="FromTB" HorizontalAlignment="Left" Margin="68,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="FromLabel" Content="From Cryptocurrency Code" HorizontalAlignment="Left" Margin="68,110,0,0" VerticalAlignment="Top" Width="152"/>
+        <Label x:Name="ToLabel" Content="To Cryptocurrency Code" HorizontalAlignment="Left" Margin="415,110,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.233,0.77"/>
+        <TextBox x:Name="ToTB" HorizontalAlignment="Left" Margin="415,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="ResultLabel" Content="Result" HorizontalAlignment="Left" Margin="106,235,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.869,-0.385"/>
+        <TextBox x:Name="NameFrom" HorizontalAlignment="Left" Margin="214,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="AmountFrom" HorizontalAlignment="Left" Margin="214,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="NameTo" HorizontalAlignment="Left" Margin="415,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="AmountTo" HorizontalAlignment="Left" Margin="415,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Button x:Name="ConvertButton" Content="Convert" HorizontalAlignment="Left" Margin="212,372,0,0" VerticalAlignment="Top" Width="263" RenderTransformOrigin="0.627,0.651" Click="ConvertButton_Click"/>
+        <Button x:Name="Back" Content="Back" HorizontalAlignment="Left" Margin="30,392,0,0" VerticalAlignment="Top" Click="Back_Click"/>
+
+
+    </Grid>
+</Window>

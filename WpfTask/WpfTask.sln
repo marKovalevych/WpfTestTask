@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTask", "WpfTask.csproj", "{EE663651-02C8-45D3-9489-BD8743451335}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfTask", "WpfTask.csproj", "{EE663651-02C8-45D3-9489-BD8743451335}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DA", "DA", "{0E7B9D1D-372C-49AA-9CF7-F968BF83CD79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "..\Repository\Repository.csproj", "{34B1BAB0-1579-4F8C-ABDB-10D7A3FCFA6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "..\Repository\Repository.csproj", "{34B1BAB0-1579-4F8C-ABDB-10D7A3FCFA6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "..\Entity\Entity.csproj", "{F5FE60B8-A644-4461-B117-C06D91FA4AC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entity", "..\Entity\Entity.csproj", "{F5FE60B8-A644-4461-B117-C06D91FA4AC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Context", "..\Context\Context.csproj", "{BEAA0EE2-ECCE-40EF-B3B8-A5EEE9E64BC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Context", "..\Context\Context.csproj", "{BEAA0EE2-ECCE-40EF-B3B8-A5EEE9E64BC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelCryptoCurrency", "..\ModelCryptoCurrency\ModelCryptoCurrency.csproj", "{C7CB7763-76D8-49B2-8D9C-86D93F56B2CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{BEAA0EE2-ECCE-40EF-B3B8-A5EEE9E64BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEAA0EE2-ECCE-40EF-B3B8-A5EEE9E64BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEAA0EE2-ECCE-40EF-B3B8-A5EEE9E64BC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7CB7763-76D8-49B2-8D9C-86D93F56B2CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7CB7763-76D8-49B2-8D9C-86D93F56B2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7CB7763-76D8-49B2-8D9C-86D93F56B2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7CB7763-76D8-49B2-8D9C-86D93F56B2CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfTask.FindCurrencyWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTask"
+        mc:Ignorable="d"
+        Title="FindCurrencyWindow" Height="450" Width="800">
+    <Grid Background="#FFFDC6C6">
+        <Button Content="Find" HorizontalAlignment="Left" Margin="680,100,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Label x:Name="Market"  HorizontalAlignment="Left" Margin="87,281,0,0" VerticalAlignment="Top" RenderTransformOrigin="-6.527,2.794" Width="106" Height="32" Content="Markets"/>
+        <Label x:Name="NameLabel" Content="Name  " HorizontalAlignment="Left" Margin="42,0,0,0" VerticalAlignment="Center" Width="137"/>
+        <Label x:Name="Code" Content="Code  " HorizontalAlignment="Left" Margin="234,0,0,0" VerticalAlignment="Center" Width="97"/>
+        <Label x:Name="SetCode" Content="Put cryptocurrency code" HorizontalAlignment="Left" Margin="87,97,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.691,0.618"/>
+        <Label x:Name="Price" Content="Price " HorizontalAlignment="Left" Margin="412,0,0,0" VerticalAlignment="Center" RenderTransformOrigin="0.29,-0.345" Width="116"/>
+        <Label x:Name="Change" Content="Change 24h  " HorizontalAlignment="Left" Margin="578,0,0,0" VerticalAlignment="Center" Width="154"/>
+        <Button x:Name="Back" Content="Back" HorizontalAlignment="Left" Margin="87,371,0,0" VerticalAlignment="Top" Click="Back_Click"/>
+        <Label x:Name="MarketView" HorizontalAlignment="Left" Margin="330,277,0,0" VerticalAlignment="Top" Width="304" Height="36" ContentStringFormat="">
+        </Label>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="446,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="31"/>
+        <Button x:Name="GoMarket" Content="Market" HorizontalAlignment="Left" Margin="446,360,0,0" VerticalAlignment="Top" Width="82" Click="GoMarket_Click"/>
+
+    </Grid>
+</Window>
