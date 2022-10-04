@@ -9,7 +9,7 @@ There are 2 buttons: Find Cryptocurrency, Convert currency.
 
 Clicked on Find Cryptocurrency you will see a window with textbox where you have to put code of Cryptocurrency you want to find(ex.BTC, eth).
 To start finding you need to click on button Find.
-Information returned:Name of cryptocurrency, code, price, change of price last 24h and link to website(to open this link you need to click on button Market.
+Information returned:Name of cryptocurrency, code, price, change of price last 24h and link to website(to open this link you need to click on button Market).
 You should click on button Back to go to Main Window.
 
 Clicked on button Convert currency you will see a window with two textbox with instrutions above.
